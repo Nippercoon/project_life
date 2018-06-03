@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/Life.cpp 
+../src/Life.cpp \
+../src/realization.cpp 
 
 OBJS += \
-./src/Life.o 
+./src/Life.o \
+./src/realization.o 
 
 CPP_DEPS += \
-./src/Life.d 
+./src/Life.d \
+./src/realization.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
